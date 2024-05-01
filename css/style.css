@@ -1,0 +1,22 @@
+body {
+    font-family: serif;
+}
+
+.my_bg-1abc9c {
+    background-color: #1abc9c;
+}
+
+.my_box {
+    flex: 0 0 auto;
+    width: 25%;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.my_box-white {
+    border: .2rem solid white;
+}
+
+.my_box-black {
+    border: .2rem solid black;
+}
