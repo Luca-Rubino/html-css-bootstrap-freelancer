@@ -11,12 +11,38 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- google font -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- css file -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav></nav>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg my_bg-2c3e50">
+      <div class="container col-10">
+        <a class="navbar-brand text-light" href="#">
+          START BOOTSTRAP
+        </a>
+        <button class="navbar-toggler bg-transparent border-secondary-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active text-light" aria-current="page" href="#">
+              PORTFOLIO
+            </a>
+            <a class="nav-link text-light" href="#">
+              ABOUT
+            </a>
+            <a class="nav-link text-light" href="#">
+              CONTACT
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /navbar -->
     <header class="my_bg-1abc9c">
       <!-- avatar -->
       <div class="container-fluid">
@@ -86,42 +112,38 @@
         </article>
         <!-- /h1 -->
         <!-- star -->
-        <article class="container-fluid">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col"></div>
-            <div class="col-1">
-              <hr class="border border-white border-2 opacity-100">
+            <div class="col-4"></div>
+            <div class="col-4 d-flex justify-content-center">
+              <div class="my_box my_box-black"></div>
+              <i class="fa-solid fa-star text-dark fs-2"></i>
+              <div class="my_box my_box-black"></div>
             </div>
-            <div class="col-1 text-center text-dark">
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <div class="col-1">
-              <hr class="border border-white border-2 opacity-100">
-            </div>
-            <div class="col"></div>
+            <div class="col-4"></div>
           </div>
-        </article>
+        </div>
         <!-- /star -->
         <!-- image -->
         <article class="container">
           <div class="row text-center">
             <div class="col-12 col-md-6 col-lg-4">
-              <img src="img/cabin.png" class="img-fluid" alt="cabin">
+              <img src="img/cabin.png" class="img-fluid rounded-3 mb-4" alt="cabin">
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-              <img src="img/cake.png" class="img-fluid" alt="cake">
+              <img src="img/cake.png" class="img-fluid rounded-3 mb-4" alt="cake">
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-              <img src="img/circus.png" class="img-fluid" alt="circus">
+              <img src="img/circus.png" class="img-fluid rounded-3 mb-4" alt="circus">
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-              <img src="img/game.png" class="img-fluid" alt="game">
+              <img src="img/game.png" class="img-fluid rounded-3 mb-4" alt="game">
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-              <img src="img/safe.png" class="img-fluid" alt="safe">
+              <img src="img/safe.png" class="img-fluid rounded-3 mb-4" alt="safe">
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-              <img src="img/submarine.png" class="img-fluid" alt="submarine">
+              <img src="img/submarine.png" class="img-fluid rounded-3 mb-4" alt="submarine">
             </div>
           </div>
         </article>
